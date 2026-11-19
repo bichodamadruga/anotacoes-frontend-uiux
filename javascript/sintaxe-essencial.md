@@ -86,7 +86,7 @@
 
 **Estruturas de repetição**
 
-## While / Do while
+## While / Do while 
 
 # Exemplos
 
@@ -120,6 +120,72 @@
     do {
          nota = Number(prompt('Digite a nota' + contador))
     } while(nota > 10)
+
+
+```
+
+
+## For / For in / For Of
+
+```javascript
+
+
+    //FOR
+
+    //Inicialização
+    //Condição
+    //Incremento
+
+    const qtd = prompt('Quantas notas?')
+    let nota = 0
+    let soma = 0
+
+    for(i = 1; i <= qtd ; i++) {
+        nota = Number(prompt('Digite a nota ' + contador))
+        soma = soma + nota
+
+    }
+
+    const media = soma / qtd
+    console.log('A média final é: ' + media)
+
+    //FOR IN
+
+    //Objeto
+    const pessoa = {
+        nome: 'Felipe',
+        telefone: '(77) 98451-4584',
+        endereço: 'ABF'
+    }
+
+    //Como acessar os atributos do objeto
+    console.log(pessoa.nome)
+    console.log(pessoa['telefone'])
+
+    //Atributo começa a pegar sempre a partir do primeiro atributo do Objeto
+    for(let atributo in pessoa) {
+        console.log(atributo)
+        console.log(atributo + ' -> ' + pessoa[atributo])
+        
+    }
+
+
+    //FOR OF
+
+    //ARRAY
+    const carros = ['Gol', 'Mustang', 'Ferrari']
+
+    //Como acessar os atributos do array
+    console.log(carros[2])
+
+    for(let elemento of carros) {
+        console.log(elemento)
+    }
+
+   
+
+
+
 
 
 ```

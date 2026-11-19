@@ -14,7 +14,7 @@ Consolidar o aprendizado prático e teórico através de documentação própria
 
 ### 🧱 HTML & CSS
 *Fundamentos estruturais, semântica, estilização moderna e layouts responsivos.*
-- [Semântica e Acessibilidade](./html-css/semantica-html.md)
+- [Estrutura base, tags semânticas, formulários, listas, sintaxe em geral](./html-css/html-css-essencial.md)
 - [Flexbox e CSS Grid](./html-css/flexbox-grid.md)
 - [Variáveis, Animações e Responsividade](./html-css/variaveis-css.md)
 
