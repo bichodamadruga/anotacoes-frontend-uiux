@@ -136,7 +136,7 @@
     //Condição
     //Incremento
 
-    const qtd = prompt('Quantas notas?')
+    const qtd = Number(prompt('Quantas notas?'))
     let nota = 0
     let soma = 0
 
