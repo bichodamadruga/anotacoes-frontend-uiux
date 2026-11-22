@@ -48,3 +48,30 @@
 
 
 ```
+
+# Arrays Multidimensionais(Matrizes)
+
+
+```javascript
+
+    const notas = [
+        [5, 10, 6, 8],
+        [9, 7, 4, 3],
+        [2, 10, 8, [4, 5, 6, 8] ]
+
+    ]
+
+    //Pega o dado na posição x, dado x
+    console.table([2][3])
+
+    //Pega o dado na posição x, dado x(OUTRO ARRAY), item x
+    console.table([2][3][2])
+
+    //Pode-se fazer um array de objetos
+
+    //Importante saber o tipo de dado de cada item dentro do array
+
+
+
+
+```
