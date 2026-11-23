@@ -71,7 +71,38 @@
 
     //Importante saber o tipo de dado de cada item dentro do array
 
+```
 
 
+# Funções
+
+
+```javascript
+
+
+    //Presume-se que há código html com os id's utilizados nessa função
+    //Padrão de função mais utilizado
+    Function  somar() {
+        const n1 = Number(document.getElementById('n1').value)
+        const n2 = Number(document.getElementById('n2').value)
+
+        const soma = n1 + n2
+
+        document.getElementById('resultado').innerHTML = 'A soma dos números é ' + soma
+
+    }
+
+    //Para linkar o código JS ao html utiliza-se o código abaixo:
+    <script type='text/javascript' src='js/funcoes.js'></script>
+
+    //Padrões de função menos utilizados
+
+    const somaExpressao = function(n1, n2) {
+        return n1 + n2
+    }
+
+    const somaArrow = (n1, n2) -> {
+        return n1 + n2
+    }
 
 ```
